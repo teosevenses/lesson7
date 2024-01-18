@@ -278,7 +278,7 @@ class Main
  			third_input = gets.chomp.to_i
  			wagon.take_place(third_input)
  			if wagon.free_place < 0 
- 				puts "Вводимый объем превышает объем вагона"
+ 				puts "Вводимый объем превышает объем вагона по умолчанию"
  			end
  		end
 	end 
