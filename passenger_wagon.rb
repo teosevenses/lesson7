@@ -1,7 +1,7 @@
 class PassengerWagon < Wagon
 
 	def initialize(num, place)
-    @type = :passenger
-    super
+		@type = :passenger
+	super
 	end
 end
