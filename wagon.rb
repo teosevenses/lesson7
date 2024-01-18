@@ -11,7 +11,7 @@ class Wagon
 		@busy_place = 0
 	end
 
-	def take_place(place)
+	def take_place
 		@busy_place += place
 	end
 
