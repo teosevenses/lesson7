@@ -272,7 +272,7 @@ class Main
  		second_input = gets.chomp.to_i
  		wagon = train.wagons.find { |wagon| second_input == wagon.num}
  		if wagon.type == :passenger
- 			wagon.take_place(1)
+ 			wagon.take_place
  		elsif wagon.type == :cargo
  			puts "Какой объем нужно занять"
  			third_input = gets.chomp.to_i
